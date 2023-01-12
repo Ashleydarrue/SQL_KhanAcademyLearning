@@ -1,2 +1,11 @@
+/** Challenge: Book list database*//
+/** What are your favorite books? You can make a database 
+table to store them in! In this first step, create a table
+to store your list of books. It should have columns for id,
+name, and rating. **/
+
+CREATE TABLE Books (id INTEGER PRIMARY KEY,name Text,rating numeric);
+
+INSERT into Books Values (1,"The Bible", 1),(2,"The Diary of Whimpy Kid",2),(3,"Twilight Series",3);
 
 
